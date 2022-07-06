@@ -1,7 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const { test } = require('../controllers/EmployeeController')
-const schemas = require('../validations/Employee')
+const { test } = require('../controllers/TestGetController')
 
 router.route('/test').get(test)
 

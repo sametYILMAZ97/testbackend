@@ -1,4 +1,4 @@
-const Model = require('../models/Employee')
+const Model = require('../models/TestGet')
 const { createPasswordToHash } = require('../scripts/utils/auth')
 
 const select = async (id) => {

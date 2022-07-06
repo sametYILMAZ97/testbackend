@@ -1,1 +1,1 @@
-module.exports.EmployeeRoutes = require('./Employee')
+module.exports.TestGetRoutes = require('./TestGet')
